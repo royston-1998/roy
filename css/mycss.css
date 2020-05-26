@@ -1,112 +1,76 @@
-.intro{
-  background-color: #ff4c68;
-}
-
-.intro .row{
+body{
+  background-color: #fff3cd;
   text-align: center;
 }
 
-.intro p{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2.1rem;
-  line-height: 1.5;
-  color: white;
-  font-weight: bold;
+.top-container p {
+  font-family: 'Caveat', cursive;
+  font-size: 35px;
+  color: #4d3e3e;
 }
 
-.intro .row{
-  padding-top: 5%;
+.top-container img{
+  width: 30%;
 }
 
-.intro .navbar-brand{
-  font-family: 'Simonetta', cursive;
-  font-size: 2rem;
+.profile p{
+  font-family: 'Josefin Sans', sans-serif;
 }
 
-.intro .nav-item{
-  font-family: 'Montserrat', sans-serif;
-  font-size:1.2rem;
-  padding: 0 18px;
+.skills td{
+  font-family: 'Josefin Sans', sans-serif;
 }
 
-.container-fluid{
-  padding: 3% 12%;
+h2{
+  font-family: 'Muli', sans-serif;
 }
 
-
-.feature-box{
-  padding: 6% 18%;
+.contact-me h3{
+  font-family: 'Josefin Sans', sans-serif;
 }
 
-.features{
+.contact-me p{
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+hr{
+  width: 7%;
+  border-top: 5px dotted grey;
+  margin-top: 65px;
+  margin-bottom: 65px;
+}
+
+.button {
+  background-color: #ff926b;
+  border: none;
+  color: #fff3cd;
+  padding: 15px 32px;
   text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
 }
 
-h4{
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
-  font-size: 1.8vw;
-
-}
-h6{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.5vw;
+.bottom-container{
+  background-color: #4d3e3e;
+  padding: 60px 20px 20px 25px;
+  color:  #fff3cd;
 }
 
-.icon{
-  color:  #ef8172;
-  margin-bottom: 1rem;
+.bottom-container a:hover{
+  color: #fff3cd;
 }
 
-.icon:hover{
-  color:#ff4c68;
+.bottom-container a{
+  color: #ffc38b;
+  text-decoration: none;
+  font-family: 'Muli', sans-serif;
+  margin: 10px 20px;
 }
 
-.joinus{
-  background-color: #ef8172;
-  line-height: 9;
-  font-family: 'Montserrat', sans-serif;
-}
-
-.joinus-box{
-  padding: 9% 15%;
-  text-align: center;
-}
-
-.carousel-item{
-  color: white;
-}
-
-.carousel-item h1{
-  margin-bottom: 1rem;
-}
-
-.feedback-box{
-  padding: 9% 5%;
-}
-
-.col-lg-4 {
-  font-size: 1.5vw;
-}
-
-.contactus-box{
-  background-color: #222831;
-  padding: 7% 5%;
-  font-family: 'Montserrat', sans-serif;
-  text-align: center;
-}
-
-.contactus h1{
-  color: white;
-
-}
-
-.footer{
-  font-family: 'Montserrat', sans-serif;
-  text-align: center;
-}
-
-.footer a{
-  color:#222831;
-  font-weight: bold
+.mainTab table{
+  padding: 10px;
 }
